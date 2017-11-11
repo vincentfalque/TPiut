@@ -1,0 +1,7 @@
+# app/config/config/config_val.yml
+
+imports:
+    - { resource: config_prod.yml }
+
+framework:
+    profiler: { only_exceptions: false }

@@ -1,0 +1,9 @@
+{% extends 'AppBundle:Default:base.html.twig' %}
+
+{% block body %}
+    <div class="container col-xs-6 col-sm-5 col-md-4">
+        {{ form(form) }}
+    </div>
+
+    {{ messageTransmission|raw }}
+{% endblock %}

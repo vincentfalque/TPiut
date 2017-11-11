@@ -12,7 +12,7 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('default/base.html.php');
+        return $this->render('AppBundle:default:homepage.html.twig');
     }
 
     /**
@@ -20,6 +20,6 @@ class DefaultController extends Controller
      */
     public function renderAction()
     {
-        return $this->render('default/conditions.html.php');
+        return $this->render('AppBundle:default:conditions.html.twig');
     }
 }
